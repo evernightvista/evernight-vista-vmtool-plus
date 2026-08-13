@@ -6,7 +6,7 @@ Requires=vmtoolsd.service
 
 [Service]
 Type=oneshot
-ExecStart=/usr/local/bin/vmware-mount-shared.sh
+ExecStart=/usr/bin/vmware-mount-shared.sh
 RemainAfterExit=yes
 
 [Install]
